@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', Arial, sans-serif !important;
+}
+
+.bg-hero {
+    background-image: url('assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+.show-h1 {
+    margin: 0;
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 5em;
+}
+
+h2 {
+    font-family: 'DM Sans', Arial, sans-serif !important;
+}
+
+#work-btn {
+    border-radius: 0 15px 0 0;
+    padding: 0.8em 2.3em;
+}
+
+#forward-arrow {
+    color: white;
+    font-size: 1rem;
+}
+
+hr {
+    width: 1px !important;
+    margin: 0 !important;
+    background-color: rgb(44, 42, 42) !important;
+}
