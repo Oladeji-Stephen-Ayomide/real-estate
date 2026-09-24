@@ -25,9 +25,10 @@ h2 {
     font-family: 'DM Sans', Arial, sans-serif !important;
 }
 
-#work-btn {
-    border-radius: 0 15px 0 0;
-    padding: 0.8em 2.3em;
+#work-btn,
+.icon-link {
+    border-radius: 0 15px 0 0 !important;
+    padding: 0.8em 2.3em !important;
 }
 
 #forward-arrow {
@@ -39,4 +40,11 @@ hr {
     width: 1px !important;
     margin: 0 !important;
     background-color: rgb(44, 42, 42) !important;
+}
+
+.icon-link {}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
 }
